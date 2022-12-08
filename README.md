@@ -1,8 +1,7 @@
 There's no place like `$HOME`
 ==================================================
 
-This is my home, built on [Zsh], [Git], and [VS Code].
+This is my home, built on [Zsh] and [Git], as well as other various config files.
 
-[VS Code]: https://code.visualstudio.com
 [Git]: http://git-scm.com
 [Zsh]: http://www.zsh.org
