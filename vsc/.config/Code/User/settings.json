@@ -1,0 +1,42 @@
+{
+  "workbench.startupEditor": "none",
+  "workbench.colorTheme": "Material Theme Palenight High Contrast",
+  "workbench.iconTheme": "material-icon-theme",
+  "prettier.alignObjectProperties": true,
+  "prettier.cssEnable": [
+    "css",
+    "less",
+    "scss",
+    "postcss",
+    "vue"
+  ],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "prettier.arrayExpand": true,
+  "prettier.jsxSingleQuote": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "liveServer.settings.AdvanceCustomBrowserCmdLine": "/usr/lib/firefox/firefox",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "liveServer.settings.ChromeDebuggingAttachment": false,
+  "prettier.singleQuote": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "prettier.endOfLine": "auto",
+  "html.format.templating": true,
+  "prettier.withNodeModules": true,
+  "prettier.tabWidth": 4,
+  "javascript.format.insertSpaceBeforeAndAfterBinaryOperators": false,
+  "html.format.contentUnformatted": "",
+  "emmet.includeLanguages": {
+    "ejs": "html",
+    "vue-html": "html",
+    "vue": "html"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar"
+  }
+}

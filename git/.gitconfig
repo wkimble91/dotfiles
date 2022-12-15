@@ -1,0 +1,12 @@
+[user]
+	email = wkimble91@gmail.com
+	nam = will
+	name = Will
+[color]
+	ui = auto
+[credential]
+	helper = store
+[core]
+	editor = nano
+[remote "origin"]
+	receivepack = git receive-pack
