@@ -1,0 +1,29 @@
+[$Version]
+update_info=kwinrules.upd:replace-placement-string-to-enum,kwinrules.upd:use-virtual-desktop-ids
+
+[14b58b14-0905-4141-9281-43a49936a7ba]
+Description=Window settings for org.kde.konsole
+size=912,732
+sizerule=3
+title=~ : zsh — Konsole
+types=1
+wmclass=konsole org.kde.konsole
+wmclasscomplete=true
+wmclassmatch=1
+
+[3aef0e21-f849-4635-8356-84f7ae587914]
+Description=Application settings for chromium
+clientmachine=localhost
+title=TIDAL
+titlematch=1
+wmclass=crx_afeeenfnhlhbljnhhmdpbjknchgndbcl chromium
+wmclasscomplete=true
+wmclassmatch=1
+
+[8b133ee5-286e-4ffa-bbd9-a38d3368262f]
+Description=Application settings for protonvpn
+clientmachine=localhost
+minimize=true
+minimizerule=3
+wmclass=protonvpn
+wmclassmatch=1

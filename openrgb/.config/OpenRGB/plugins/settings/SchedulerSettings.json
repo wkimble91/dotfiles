@@ -1,0 +1,19 @@
+[
+    {
+        "action": 0,
+        "cron_line": "0 0 7 * * ?",
+        "run": true,
+        "sub_action": "White"
+    },
+    {
+        "action": 0,
+        "cron_line": "0 0 19 * * ?",
+        "run": true,
+        "sub_action": "Grey"
+    },
+    {
+        "action": 1,
+        "cron_line": "0 0 21 * * ?",
+        "run": true
+    }
+]
