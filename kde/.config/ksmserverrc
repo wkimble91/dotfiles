@@ -1,29 +1,42 @@
 [$Version]
 update_info=ksmserver_update_loginMode_value.upd:ksmserver_update_loginMode_value_default_enum
 
+[General]
+loginMode=emptySession
+
 [LegacySession: saved at previous logout]
 count=0
 
 [Session: saved at previous logout]
-clientId1=1061726368000167111969400000010560004
-clientId2=1061726368000167111969400000010560005
-clientId3=1061726368000167111969800000010560006
-clientId4=1061726368000167114284900000010560015
-count=4
-discardCommand4[$e]=rm,$HOME/.config/session/konsole_1061726368000167114284900000010560015_1671146079_280546
+clientId1=1061726368000167171876700000010840004
+clientId2=1061726368000167171876700000010840005
+clientId3=1061726368000167171877100000010840006
+clientId4=1061726368000167171888500000010840008
+clientId5=1061726368000167171904700000010840011
+clientId6=1061726368000167171919900000010840012
+count=6
+discardCommand6[$e]=rm,$HOME/.config/session/konsole_1061726368000167171919900000010840012_1671719459_340055
 program1=/usr/bin/flameshot
 program2=/usr/lib/DiscoverNotifier
 program3=/usr/bin/openrgb
-program4=/usr/bin/konsole
-restartCommand1=/usr/bin/flameshot,-session,1061726368000167111969400000010560004_1671146079_280303
-restartCommand2=/usr/lib/DiscoverNotifier,-session,1061726368000167111969400000010560005_1671146079_280311
-restartCommand3=/usr/bin/openrgb,-session,1061726368000167111969800000010560006_1671146079_280323
-restartCommand4=/usr/bin/konsole,-session,1061726368000167114284900000010560015_1671146079_280546
+program4=firefox
+program5=firefox
+program6=/usr/bin/konsole
+restartCommand1=/usr/bin/flameshot,-session,1061726368000167171876700000010840004_1671719459_339989
+restartCommand2=/usr/lib/DiscoverNotifier,-session,1061726368000167171876700000010840005_1671719459_340129
+restartCommand3=/usr/bin/openrgb,-session,1061726368000167171877100000010840006_1671719459_340007
+restartCommand4=/usr/lib/firefox/firefox,--sm-client-id,1061726368000167171888500000010840008
+restartCommand5=/usr/lib/firefox/firefox,--sm-client-id,1061726368000167171904700000010840011
+restartCommand6=/usr/bin/konsole,-session,1061726368000167171919900000010840012_1671719459_340055
 restartStyleHint1=0
 restartStyleHint2=0
 restartStyleHint3=0
 restartStyleHint4=0
+restartStyleHint5=0
+restartStyleHint6=0
 userId1=will
 userId2=will
 userId3=will
 userId4=will
+userId5=will
+userId6=will

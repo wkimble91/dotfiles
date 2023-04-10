@@ -106,11 +106,16 @@ alias homelab="ssh will@192.168.1.183 -p 193"
 alias extractfolders="find . -mindepth 2 -type f -print -exec mv {} . \;"
 alias cleanorphans="sudo pacman -Qtdq | sudo pacman -Rns -"
 
-# Beatsaber Beataroni Mods
-alias beataroni="~/.beataroni/Beataroni-Linux.sh"
+# Homelab operations
+alias homelab="ssh will@192.168.1.183 -p 193"
+alias mountnas="sudo mount 192.168.1.181:/volume1/media /mnt/NAS"
+alias umountnas="sudo umount /mnt/NAS"
 
 # Set NPM Globals to be local
 export PATH=~/.npm-global/bin:$PATH
 
 # Git add all/commit/push to master
 alias gpush="git add . && git commit && git push origin master"
+
+# Vite shorthand
+alias vite="npm create vite@latest"

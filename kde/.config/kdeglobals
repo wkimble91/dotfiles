@@ -6,7 +6,7 @@ ChangeSelectionColor=
 Color=56,56,56
 ColorAmount=0
 ColorEffect=0
-ContrastAmount=0.65
+ContrastAmount=0.6000000000000001
 ContrastEffect=1
 Enable=
 IntensityAmount=0.1
@@ -15,91 +15,106 @@ IntensityEffect=2
 [ColorEffects:Inactive]
 ChangeSelectionColor=true
 Color=112,111,110
-ColorAmount=0.025000000000000001
+ColorAmount=0.025
 ColorEffect=2
-ContrastAmount=0.10000000000000001
+ContrastAmount=0.1
 ContrastEffect=2
 Enable=false
 IntensityAmount=0
-IntensityEffect=0
+IntensityEffect=2
 
 [Colors:Button]
-BackgroundAlternate=64,69,82
-BackgroundNormal=60,68,84
-DecorationFocus=143,188,187
-DecorationHover=143,188,187
-ForegroundActive=61,174,233
-ForegroundInactive=102,106,115
-ForegroundLink=41,128,185
-ForegroundNegative=191,97,106
-ForegroundNeutral=208,135,112
-ForegroundNormal=216,222,233
-ForegroundPositive=163,190,140
+BackgroundAlternate=41,40,42
+BackgroundNormal=46,44,47
+DecorationFocus=114,155,121
+DecorationHover=114,155,121
+ForegroundActive=136,192,208
+ForegroundInactive=166,172,186
+ForegroundLink=0,149,179
+ForegroundNegative=218,68,83
+ForegroundNeutral=74,198,255
+ForegroundNormal=236,239,244
+ForegroundPositive=114,155,121
 ForegroundVisited=82,148,226
 
+[Colors:Complementary]
+BackgroundAlternate=41,40,42
+BackgroundNormal=46,44,47
+DecorationFocus=0,170,127
+DecorationHover=0,170,127
+ForegroundActive=136,192,208
+ForegroundInactive=166,172,186
+ForegroundLink=0,149,179
+ForegroundNegative=218,68,83
+ForegroundNeutral=255,255,127
+ForegroundPositive=0,170,127
+
+[Colors:Header]
+BackgroundAlternate=41,40,42
+
 [Colors:Selection]
-BackgroundAlternate=29,153,243
-BackgroundNormal=143,188,187
-DecorationFocus=143,188,187
-DecorationHover=143,188,187
-ForegroundActive=46,52,64
-ForegroundInactive=46,52,64
-ForegroundLink=253,188,75
-ForegroundNegative=191,97,106
-ForegroundNeutral=208,135,112
-ForegroundNormal=46,52,64
-ForegroundPositive=163,190,140
+BackgroundAlternate=98,134,104
+BackgroundNormal=114,155,121
+DecorationFocus=114,155,121
+DecorationHover=114,155,121
+ForegroundActive=252,252,252
+ForegroundInactive=211,218,227
+ForegroundLink=0,149,179
+ForegroundNegative=218,68,83
+ForegroundNeutral=74,198,255
+ForegroundNormal=225,228,220
+ForegroundPositive=114,155,121
 ForegroundVisited=189,195,199
 
 [Colors:Tooltip]
-BackgroundAlternate=47,52,63
-BackgroundNormal=53,57,69
-DecorationFocus=143,188,187
-DecorationHover=143,188,187
-ForegroundActive=61,174,233
-ForegroundInactive=102,106,115
-ForegroundLink=41,128,185
-ForegroundNegative=191,97,106
-ForegroundNeutral=208,135,112
-ForegroundNormal=211,218,227
-ForegroundPositive=163,190,140
+BackgroundAlternate=41,40,42
+BackgroundNormal=46,44,47
+DecorationFocus=114,155,121
+DecorationHover=114,155,121
+ForegroundActive=136,192,208
+ForegroundInactive=166,172,186
+ForegroundLink=0,149,179
+ForegroundNegative=218,68,83
+ForegroundNeutral=74,198,255
+ForegroundNormal=225,228,220
+ForegroundPositive=114,155,121
 ForegroundVisited=82,148,226
 
 [Colors:View]
-BackgroundAlternate=60,67,83
-BackgroundNormal=67,76,94
-DecorationFocus=143,188,187
-DecorationHover=143,188,187
-ForegroundActive=136,192,208
-ForegroundInactive=102,106,115
-ForegroundLink=94,129,172
-ForegroundNegative=191,97,106
-ForegroundNeutral=208,135,112
-ForegroundNormal=216,222,233
-ForegroundPositive=163,190,140
+BackgroundAlternate=41,40,42
+BackgroundNormal=46,44,47
+DecorationFocus=114,155,121
+DecorationHover=114,155,121
+ForegroundActive=0,140,165
+ForegroundInactive=166,172,186
+ForegroundLink=0,149,179
+ForegroundNegative=218,68,83
+ForegroundNeutral=74,198,255
+ForegroundNormal=225,228,220
+ForegroundPositive=114,155,121
 ForegroundVisited=124,183,255
 
 [Colors:Window]
-BackgroundAlternate=47,52,63
-BackgroundNormal=59,66,82
-DecorationFocus=143,188,187
-DecorationHover=143,188,187
-ForegroundActive=61,174,233
-ForegroundInactive=102,106,115
-ForegroundLink=41,128,185
-ForegroundNegative=191,97,106
-ForegroundNeutral=208,135,112
-ForegroundNormal=216,222,233
-ForegroundPositive=163,190,140
-ForegroundVisited=143,188,187
+BackgroundAlternate=41,40,42
+BackgroundNormal=46,44,47
+DecorationFocus=114,155,121
+DecorationHover=114,155,121
+ForegroundActive=136,192,208
+ForegroundInactive=166,172,186
+ForegroundLink=0,149,179
+ForegroundNegative=218,68,83
+ForegroundNeutral=74,198,255
+ForegroundNormal=225,228,220
+ForegroundPositive=114,155,121
+ForegroundVisited=61,111,171
 
 [DirSelect Dialog]
 DirSelectDialog Size=842,598
-History Items[$e]=file:$HOME/Pictures/Wallpapers,file:$HOME/Games,file:$HOME/Downloads/TWIOAL Trash/Merged Trash,file:$HOME/Downloads/TWIOAL Trash/Merged Trash,file:$HOME,file:$HOME/Downloads/Trash/Merged Trash,file:$HOME/.wine/drive_c/Program Files (x86)/Booksonic,file:$HOME/.CalibreLibrary,file:$HOME/.CalibreLibrary,remote:/network
+History Items[$e]=file:$HOME/Downloads,file:$HOME/Downloads,file:$HOME/Downloads/Games,file:$HOME/Games,file:$HOME/Downloads/Games,file:$HOME/Downloads/Games/TEMP,file:$HOME/Downloads/Games/TEMP,file:$HOME/Downloads/Games/TEMP,file:$HOME/Documents/Backups/School,file:$HOME/Documents/Backups/School Work,file:$HOME/Documents/Backups/Homework,file:$HOME/Documents/Backups,file:$HOME/Documents/Backups,file:$HOME/Documents/Homework,file:$HOME/Downloads,file:$HOME/Downloads,file:$HOME/Downloads,file:$HOME/Pictures/Wallpapers,file:$HOME/Games,file:$HOME/Downloads/TWIOAL Trash/Merged Trash,file:$HOME/Downloads/TWIOAL Trash/Merged Trash,file:$HOME,file:$HOME/Downloads/Trash/Merged Trash,file:$HOME/.wine/drive_c/Program Files (x86)/Booksonic,file:$HOME/.CalibreLibrary,file:$HOME/.CalibreLibrary,remote:/network
 
 [General]
 BrowserApplication=google-chrome.desktop
-ColorSchemeHash=a935e515e29025e6636b957f51c3dda99b47f986
+ColorSchemeHash=f73aae26ac5736ad1014a1f0e983b176f68debcb
 Name=Breeze Light
 XftHintStyle=hintslight
 XftSubPixel=rgb
@@ -112,12 +127,12 @@ toolBarFont=IBM Plex Sans,10,-1,5,50,0,0,0,0,0
 widgetStyle=Breeze
 
 [Icons]
-Theme=Tela-dark
+Theme=Relax-Dark-Icons
 
 [KDE]
 AnimationDurationFactor=0.25
 ColorScheme=BreezeLight
-LookAndFeelPackage=com.github.varlesh.arc-dark
+LookAndFeelPackage=leaf-dark
 SingleClick=false
 contrast=4
 
@@ -149,10 +164,10 @@ ScreenScaleFactors=DVI-D-0=1;HDMI-0=1;DP-0=1;DP-1=1;DP-2=1;DP-3=1;DP-4=1;DP-5=1;
 Dialog Size=600,480
 
 [WM]
-activeBackground=47,52,63
-activeBlend=47,52,63
+activeBackground=46,44,47
+activeBlend=46,44,47
 activeFont=IBM Plex Sans,10,-1,5,50,0,0,0,0,0
-activeForeground=211,218,227
-inactiveBackground=47,52,63
-inactiveBlend=47,52,63
-inactiveForeground=102,106,115
+activeForeground=225,228,220
+inactiveBackground=46,44,47
+inactiveBlend=46,44,47
+inactiveForeground=166,172,186

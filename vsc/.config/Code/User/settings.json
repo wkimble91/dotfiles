@@ -28,7 +28,6 @@
   "prettier.endOfLine": "auto",
   "html.format.templating": true,
   "prettier.withNodeModules": true,
-  "prettier.tabWidth": 4,
   "javascript.format.insertSpaceBeforeAndAfterBinaryOperators": false,
   "html.format.contentUnformatted": "",
   "emmet.includeLanguages": {
@@ -38,5 +37,9 @@
   },
   "[vue]": {
     "editor.defaultFormatter": "Vue.volar"
-  }
+  },
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.inlineSuggest.enabled": true
 }

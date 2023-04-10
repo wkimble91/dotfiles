@@ -1,6 +1,14 @@
 [$Version]
 update_info=kwinrules.upd:replace-placement-string-to-enum,kwinrules.upd:use-virtual-desktop-ids
 
+[1]
+Description=Application settings for rimworldlinux
+clientmachine=localhost
+fullscreen=true
+fullscreenrule=3
+wmclass=rimworldlinux
+wmclassmatch=1
+
 [14b58b14-0905-4141-9281-43a49936a7ba]
 Description=Window settings for org.kde.konsole
 size=912,732
@@ -26,4 +34,16 @@ clientmachine=localhost
 minimize=true
 minimizerule=3
 wmclass=protonvpn
+wmclassmatch=1
+
+[General]
+count=1
+rules=1
+
+[a440dcd4-b67a-4104-91d7-87a37bd8c8d6]
+Description=Application settings for rimworldlinux
+clientmachine=localhost
+fullscreen=true
+fullscreenrule=3
+wmclass=rimworldlinux
 wmclassmatch=1
