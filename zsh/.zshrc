@@ -104,7 +104,7 @@ alias zshconfig="nano ~/.zshrc"
 alias ohmyzsh="nano ~/.oh-my-zsh"
 alias homelab="ssh will@192.168.1.183 -p 193"
 alias extractfolders="find . -mindepth 2 -type f -print -exec mv {} . \;"
-alias cleanorphans="sudo pacman -Qtdq | sudo pacman -Rns -"
+alias cleanorphans="sudo pacman -Qtdq | pacman -Rns -"
 
 # Homelab operations
 alias homelab="ssh will@192.168.1.183 -p 193"
@@ -116,6 +116,8 @@ export PATH=~/.npm-global/bin:$PATH
 
 # Git add all/commit/push to master
 alias gpush="git add . && git commit && git push origin master"
+alias gcommit="git add . && git commit"
+
 
 # Vite shorthand
 alias vite="npm create vite@latest"

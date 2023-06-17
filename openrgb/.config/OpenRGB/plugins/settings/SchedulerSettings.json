@@ -7,13 +7,13 @@
     },
     {
         "action": 0,
-        "cron_line": "0 0 19 * * ?",
+        "cron_line": "0 0 18 * * ?",
         "run": true,
         "sub_action": "Grey"
     },
     {
         "action": 1,
-        "cron_line": "0 0 21 * * ?",
+        "cron_line": "0 0 20 * * ?",
         "run": true
     }
 ]

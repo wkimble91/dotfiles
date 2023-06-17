@@ -10,3 +10,5 @@
 	editor = nano
 [remote "origin"]
 	receivepack = git receive-pack
+[http]
+	postBuffer = 524288000
