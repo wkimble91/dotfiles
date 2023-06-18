@@ -102,12 +102,11 @@ DEFAULT_USER="will"
 # Custom aliases
 alias zshconfig="nano ~/.zshrc"
 alias ohmyzsh="nano ~/.oh-my-zsh"
-alias homelab="ssh will@192.168.1.183 -p 193"
 alias extractfolders="find . -mindepth 2 -type f -print -exec mv {} . \;"
 alias cleanorphans="sudo pacman -Qtdq | pacman -Rns -"
 
 # Homelab operations
-alias homelab="ssh will@192.168.1.183 -p 193"
+alias homelab="sudo ssh -i /home/will/.ssh/id_rsa will@192.168.1.183 -p 30467"
 alias mountnas="sudo mount 192.168.1.181:/volume1/media /mnt/NAS"
 alias umountnas="sudo umount /mnt/NAS"
 
@@ -117,6 +116,10 @@ export PATH=~/.npm-global/bin:$PATH
 # Git add all/commit/push to master
 alias gpush="git add . && git commit && git push origin master"
 alias gcommit="git add . && git commit"
+
+# Backup Commands
+alias fullbackup='sudo rsync -aAXHv --exclude={"/dev/*","/proc/*","/sys/*","/tmp/*","/run/*","/mnt/*","/media/*","/lost+found",".cache","/home/will/games","/home/will/.steam","/home/will/.local/share/Steam","/home/will/Downloads/*","swapfile","/home/will/Videos"} / /home/will/Downloads/backup'
+alias homebackup='sudo rsync -aAXHv --exclude={"/lost+found",".cache","/games","/.steam","/.local/share/Steam","/Downloads/*","/Videos"} /home /home/will/Downloads/backup'
 
 
 # Vite shorthand

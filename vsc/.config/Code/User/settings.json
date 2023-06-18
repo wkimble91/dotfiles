@@ -11,7 +11,7 @@
     "vue"
   ],
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": false,
   "prettier.arrayExpand": true,
   "prettier.jsxSingleQuote": true,
   "liveServer.settings.donotShowInfoMsg": true,
@@ -38,8 +38,8 @@
   "[vue]": {
     "editor.defaultFormatter": "Vue.volar"
   },
-  "editor.formatOnPaste": true,
-  "editor.formatOnType": true,
+  "editor.formatOnPaste": false,
+  "editor.formatOnType": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "editor.inlineSuggest.enabled": true,
   "github.copilot.advanced": {},
