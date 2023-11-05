@@ -99,28 +99,36 @@ DEFAULT_USER="will"
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 #
+
+# Path Changes
+# Set NPM Globals to be local
+export PATH=~/.npm-global/bin:$PATH
+
+# Created by `pipx` on 2023-10-21 22:10:43
+export PATH="$PATH:/home/will/.local/bin"
+
 # Custom aliases
 alias zshconfig="nano ~/.zshrc"
 alias ohmyzsh="nano ~/.oh-my-zsh"
 alias extractfolders="find . -mindepth 2 -type f -print -exec mv {} . \;"
-alias cleanorphans="sudo pacman -Qtdq | pacman -Rns -"
+alias cleanorphans="sudo pacman -Qtdq | sudo pacman -Rns -"
 
 # Homelab operations
-alias homelab="sudo ssh -i /home/will/.ssh/id_rsa will@192.168.1.183 -p 30467"
+alias homelab="ssh -i /home/will/.ssh/id_ed25519 will@192.168.1.183 -p 30467"
 alias mountnas="sudo mount 192.168.1.181:/volume1/media /mnt/NAS"
 alias umountnas="sudo umount /mnt/NAS"
 
-# Set NPM Globals to be local
-export PATH=~/.npm-global/bin:$PATH
 
 # Git add all/commit/push to master
-alias gpush="git add . && git commit && git push origin master"
+alias gpush="git add . && git commit && git push origin main"
 alias gcommit="git add . && git commit"
 
 # Backup Commands
 alias fullbackup='sudo rsync -aAXHv --exclude={"/dev/*","/proc/*","/sys/*","/tmp/*","/run/*","/mnt/*","/media/*","/lost+found",".cache","/home/will/games","/home/will/.steam","/home/will/.local/share/Steam","/home/will/Downloads/*","swapfile","/home/will/Videos"} / /home/will/Downloads/backup'
 alias homebackup='sudo rsync -aAXHv --exclude={"/lost+found",".cache","/games","/.steam","/.local/share/Steam","/Downloads/*","/Videos"} /home /home/will/Downloads/backup'
 
-
 # Vite shorthand
 alias vite="npm create vite@latest"
+
+# Remove .flac track tag for compilations
+alias removetracktags='metaflac --remove-tag="Disc Number" --remove-tag="TOTALTRACKS" --remove-tag="DISC" --remove-tag="TOTALDISCS" --remove-tag="TRACK" --remove-tag="DISCNUMBER" --remove-tag="DISCTOTAL" --remove-tag="DISCC" --remove-tag="TRACKC" --remove-tag="TOTALTRACK" *.flac'

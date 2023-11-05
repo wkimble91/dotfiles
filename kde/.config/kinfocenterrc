@@ -1,10 +1,16 @@
 [MainWindow]
+2 screens: Height=700
+2 screens: Width=1020
+2 screens: XPosition=2920
+2 screens: YPosition=446
 DP-4 HDMI-0 Height 2560x1440=700
 DP-4 HDMI-0 Width 2560x1440=1020
 DP-4 HDMI-0 XPosition 1920x1080=607
 DP-4 HDMI-0 XPosition 2560x1440=2690
 DP-4 HDMI-0 YPosition 1920x1080=319
 DP-4 HDMI-0 YPosition 2560x1440=382
+DisplayPort-0 HDMI-A-0=DisplayPort-0
+DisplayPort-2 HDMI-A-0=DisplayPort-2
 MenuBar=Disabled
 State=AAAA/wAAAAD9AAAAAAAAA/wAAAK8AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled

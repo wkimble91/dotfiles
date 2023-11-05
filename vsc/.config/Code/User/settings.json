@@ -11,7 +11,7 @@
     "vue"
   ],
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": false,
+  "editor.formatOnSave": true,
   "prettier.arrayExpand": true,
   "prettier.jsxSingleQuote": true,
   "liveServer.settings.donotShowInfoMsg": true,
@@ -38,13 +38,13 @@
   "[vue]": {
     "editor.defaultFormatter": "Vue.volar"
   },
-  "editor.formatOnPaste": false,
-  "editor.formatOnType": false,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "editor.inlineSuggest.enabled": true,
   "github.copilot.advanced": {},
   "github.copilot.enable": {
-    "*": true,
+    "*": false,
     "plaintext": false,
     "markdown": false,
     "scminput": false,
@@ -55,6 +55,9 @@
   },
   "prettier.bracketSameLine": true,
   "[astro]": {
-    "editor.defaultFormatter": "astro-build.astro-vscode"
-  }
+    "editor.defaultFormatter": "astro-build.astro-vscode",
+    "html.format.enable": false
+  },
+  "html.autoClosingTags": false,
+  "html.completion.attributeDefaultValue": "singlequotes",
 }

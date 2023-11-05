@@ -1,14 +1,18 @@
 [user]
-	email = wkimble91@gmail.com
+	email = mail@willkimble.com
 	nam = will
 	name = Will
 [color]
 	ui = auto
 [credential]
 	helper = store
-[core]
-	editor = nano
 [remote "origin"]
 	receivepack = git receive-pack
 [http]
 	postBuffer = 524288000
+[init]
+	defaultBranch = main
+[pull]
+	rebase = false
+[core]
+	editor = nano
