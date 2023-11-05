@@ -3,7 +3,9 @@
     "killswitch": 0,
     "dns": {
         "dns_status": 1,
-        "custom_dns": []
+        "custom_dns": [
+            "192.168.1.183"
+        ]
     },
     "split_tunneling": {
         "split_tunneling_status": 0,
@@ -13,5 +15,6 @@
     "secure_core": 0,
     "vpn_accelerator": 1,
     "new_brand_info": 0,
-    "event_notification": 2
+    "event_notification": 2,
+    "moderate_nat": 1
 }

@@ -7,7 +7,7 @@ DP-4 HDMI-0 Height 2560x1440=780
 DP-4 HDMI-0 Width 2560x1440=1300
 
 [KFileDialog Settings]
-Recent Files[$e]=873172.jpg,file:$HOME/Downloads/node-us-222.protonvpn.net.udp.ovpn
+Recent Files[$e]=873172.jpg,file:$HOME/Downloads/arch-US-CO-13.conf,file:$HOME/Downloads/us.protonvpn.net.udp.ovpn
 Recent URLs[$e]=file:$HOME/Pictures/,file:$HOME/,file:$HOME/Pictures/Wallpapers/,file:$HOME/Downloads/,file:$HOME/Documents/
 detailViewIconSize=16
 iconViewIconSize=48
@@ -20,10 +20,10 @@ DP-4 HDMI-0 Height 1920x1080=458
 DP-4 HDMI-0 Width 1920x1080=410
 
 [MainWindow]
-2 screens: Height=688
+2 screens: Height=704
 2 screens: Width=1280
-2 screens: XPosition=2897
-2 screens: YPosition=281
+2 screens: XPosition=2657
+2 screens: YPosition=361
 :0.0=:0.0
 :0.0 DP-2=:0.0
 :0.0 DP-2 XPosition 1920x1080 :0.0=542
@@ -69,6 +69,7 @@ DisplayPort-0 HDMI-A-0 XPosition 2560x1440 DisplayPort-0=2592
 DisplayPort-0 HDMI-A-0 YPosition 1080x1920 HDMI-A-0=988
 DisplayPort-0 HDMI-A-0 YPosition 1920x1080 HDMI-A-0=382
 DisplayPort-0 HDMI-A-0 YPosition 2560x1440 DisplayPort-0=535
+DisplayPort-2 HDMI-A-0=DisplayPort-2
 HDMI-0=HDMI-0
 HDMI-0 :0.1=HDMI-0
 HDMI-0 :0.1 XPosition 1920x1080 HDMI-0=542
@@ -94,7 +95,7 @@ HDMI-A-1 DP-1 Height 2560x1440 DP-1=700
 HDMI-A-1 DP-1 Width 1920x1080 HDMI-A-1=1020
 HDMI-A-1 DP-1 Width 2560x1440 DP-1=1020
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAACgAAAAWAAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAABQAAAALAAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 
 [Open-with settings]

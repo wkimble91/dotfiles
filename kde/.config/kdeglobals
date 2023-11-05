@@ -109,8 +109,8 @@ ForegroundPositive=114,155,121
 ForegroundVisited=61,111,171
 
 [DirSelect Dialog]
-DirSelectDialog Size=640,480
-History Items[$e]=file:$HOME/Downloads/SteamAchievementManager-7.0.25,file:$HOME/Downloads,file:$HOME/Downloads,file:$HOME/Downloads,file:$HOME/Downloads,file:$HOME/Downloads,file:$HOME/Downloads/Games,file:$HOME/Games,file:$HOME/Downloads/Games,file:$HOME/Downloads/Games/TEMP,file:$HOME/Downloads/Games/TEMP,file:$HOME/Downloads/Games/TEMP,file:$HOME/Documents/Backups/School,file:$HOME/Documents/Backups/School Work,file:$HOME/Documents/Backups/Homework,file:$HOME/Documents/Backups,file:$HOME/Documents/Backups,file:$HOME/Documents/Homework,file:$HOME/Downloads,file:$HOME/Downloads,file:$HOME/Downloads,file:$HOME/Pictures/Wallpapers,file:$HOME/Games,file:$HOME/Downloads/TWIOAL Trash/Merged Trash,file:$HOME/Downloads/TWIOAL Trash/Merged Trash,file:$HOME,file:$HOME/Downloads/Trash/Merged Trash,file:$HOME/.wine/drive_c/Program Files (x86)/Booksonic,file:$HOME/.CalibreLibrary,file:$HOME/.CalibreLibrary,remote:/network
+DirSelectDialog Size=808,598
+History Items[$e]=file:$HOME/Music/Compilations,file:///run/media/will/Expansion Card,file:///run/media/will/USB DISK,file:$HOME/Games/Cyberpunk 2077,file:$HOME/Downloads,file:$HOME/Downloads,file:$HOME/Games/Baldurs Gate 3/bin,file:$HOME/Games/Baldurs Gate 3,file:$HOME/Downloads,file:$HOME/Downloads,file:$HOME/Downloads/SteamAchievementManager-7.0.25,file:$HOME/Downloads,file:$HOME/Downloads,file:$HOME/Downloads,file:$HOME/Downloads,file:$HOME/Downloads,file:$HOME/Downloads/Games,file:$HOME/Games,file:$HOME/Downloads/Games,file:$HOME/Downloads/Games/TEMP,file:$HOME/Downloads/Games/TEMP,file:$HOME/Downloads/Games/TEMP,file:$HOME/Documents/Backups/School,file:$HOME/Documents/Backups/School Work,file:$HOME/Documents/Backups/Homework,file:$HOME/Documents/Backups,file:$HOME/Documents/Backups,file:$HOME/Documents/Homework,file:$HOME/Downloads,file:$HOME/Downloads,file:$HOME/Downloads,file:$HOME/Pictures/Wallpapers,file:$HOME/Games,file:$HOME/Downloads/TWIOAL Trash/Merged Trash,file:$HOME/Downloads/TWIOAL Trash/Merged Trash,file:$HOME,file:$HOME/Downloads/Trash/Merged Trash,file:$HOME/.wine/drive_c/Program Files (x86)/Booksonic,file:$HOME/.CalibreLibrary,file:$HOME/.CalibreLibrary,remote:/network
 
 [General]
 BrowserApplication=google-chrome.desktop
@@ -139,7 +139,7 @@ contrast=4
 [KFileDialog Settings]
 Allow Expansion=false
 Automatically select filename extension=true
-Breadcrumb Navigation=true
+Breadcrumb Navigation=false
 Decoration position=2
 LocationCombo Completionmode=5
 PathCombo Completionmode=5
@@ -162,6 +162,9 @@ ScreenScaleFactors=DVI-D-0=1;HDMI-0=1;DP-0=1;DP-1=1;DP-2=1;DP-3=1;DP-4=1;DP-5=1;
 
 [KShortcutsDialog Settings]
 Dialog Size=600,480
+
+[MainToolbarIcons]
+Size=24
 
 [WM]
 activeBackground=46,44,47
