@@ -1,8 +1,15 @@
 {
   "workbench.startupEditor": "none",
-  "workbench.colorTheme": "Material Theme Palenight High Contrast",
   "workbench.iconTheme": "material-icon-theme",
+  "terminal.integrated.fontFamily": "'Monaspace Neon', monospace",
+  "terminal.integrated.fontSize": 12,
   "prettier.alignObjectProperties": true,
+  "prettier.singleQuote": true,
+  "prettier.endOfLine": "auto",
+  "prettier.withNodeModules": true,
+  "prettier.bracketSameLine": true,
+  "prettier.arrayExpand": true,
+  "prettier.jsxSingleQuote": true,
   "prettier.cssEnable": [
     "css",
     "less",
@@ -12,36 +19,14 @@
   ],
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
-  "prettier.arrayExpand": true,
-  "prettier.jsxSingleQuote": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.fontFamily": "'Monaspace Neon', monospace",
+  "editor.inlineSuggest.enabled": true,
   "liveServer.settings.donotShowInfoMsg": true,
   "liveServer.settings.donotVerifyTags": true,
   "liveServer.settings.AdvanceCustomBrowserCmdLine": "/usr/lib/firefox/firefox",
-  "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
-  },
   "liveServer.settings.ChromeDebuggingAttachment": false,
-  "prettier.singleQuote": true,
-  "[jsonc]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "prettier.endOfLine": "auto",
-  "html.format.templating": true,
-  "prettier.withNodeModules": true,
-  "javascript.format.insertSpaceBeforeAndAfterBinaryOperators": false,
-  "html.format.contentUnformatted": "",
-  "emmet.includeLanguages": {
-    "ejs": "html",
-    "vue-html": "html",
-    "vue": "html"
-  },
-  "[vue]": {
-    "editor.defaultFormatter": "Vue.volar"
-  },
-  "editor.formatOnPaste": true,
-  "editor.formatOnType": true,
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "editor.inlineSuggest.enabled": true,
   "github.copilot.advanced": {},
   "github.copilot.enable": {
     "*": false,
@@ -50,14 +35,32 @@
     "scminput": false,
     "yaml": false
   },
+  "emmet.includeLanguages": {
+    "ejs": "html",
+    "vue-html": "html",
+    "vue": "html"
+  },
+  "html.autoClosingTags": false,
+  "html.completion.attributeDefaultValue": "singlequotes",
+  "html.format.templating": true,
+  "html.format.contentUnformatted": "",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.format.insertSpaceBeforeAndAfterBinaryOperators": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar"
+  },
   "[scss]": {
     "editor.defaultFormatter": "michelemelluso.code-beautifier"
   },
-  "prettier.bracketSameLine": true,
   "[astro]": {
     "editor.defaultFormatter": "astro-build.astro-vscode",
     "html.format.enable": false
   },
-  "html.autoClosingTags": false,
-  "html.completion.attributeDefaultValue": "singlequotes",
+  "workbench.colorTheme": "Material Theme Darker",
 }

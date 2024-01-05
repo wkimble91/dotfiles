@@ -125,10 +125,14 @@ alias gcommit="git add . && git commit"
 
 # Backup Commands
 alias fullbackup='sudo rsync -aAXHv --exclude={"/dev/*","/proc/*","/sys/*","/tmp/*","/run/*","/mnt/*","/media/*","/lost+found",".cache","/home/will/games","/home/will/.steam","/home/will/.local/share/Steam","/home/will/Downloads/*","swapfile","/home/will/Videos"} / /home/will/Downloads/backup'
-alias homebackup='sudo rsync -aAXHv --exclude={"/lost+found",".cache","/games","/.steam","/.local/share/Steam","/Downloads/*","/Videos"} /home /home/will/Downloads/backup'
+alias homebackup='sudo rsync -aAXHv --exclude={"/lost+found","*/temp/",".cache","*/cache/","/games","/.steam","/.local/share/Steam","/Downloads/*","/Videos"} /home /home/will/Downloads/backup'
 
 # Vite shorthand
 alias vite="npm create vite@latest"
 
 # Remove .flac track tag for compilations
 alias removetracktags='metaflac --remove-tag="Disc Number" --remove-tag="TOTALTRACKS" --remove-tag="DISC" --remove-tag="TOTALDISCS" --remove-tag="TRACK" --remove-tag="DISCNUMBER" --remove-tag="DISCTOTAL" --remove-tag="DISCC" --remove-tag="TRACKC" --remove-tag="TOTALTRACK" *.flac'
+
+# Select Random Files
+alias random5='( for ((i = 1; i <= 5; i++)); do shuf -ezn 1 * | xargs -I {} ebook-viewer "{}" & done ) > /dev/null 2>&1'
+alias random10='( for ((i = 1; i <= 10; i++)); do shuf -ezn 1 * | xargs -I {} ebook-viewer "{}" & done ) > /dev/null 2>&1'
