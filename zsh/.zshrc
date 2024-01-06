@@ -134,5 +134,7 @@ alias vite="npm create vite@latest"
 alias removetracktags='metaflac --remove-tag="Disc Number" --remove-tag="TOTALTRACKS" --remove-tag="DISC" --remove-tag="TOTALDISCS" --remove-tag="TRACK" --remove-tag="DISCNUMBER" --remove-tag="DISCTOTAL" --remove-tag="DISCC" --remove-tag="TRACKC" --remove-tag="TOTALTRACK" *.flac'
 
 # Select Random Files
-alias random5='( for ((i = 1; i <= 5; i++)); do shuf -ezn 1 * | xargs -I {} ebook-viewer "{}" & done ) > /dev/null 2>&1'
-alias random10='( for ((i = 1; i <= 10; i++)); do shuf -ezn 1 * | xargs -I {} ebook-viewer "{}" & done ) > /dev/null 2>&1'
+alias 5comics='( for ((i = 1; i <= 5; i++)); do shuf -ezn 1 *.cbz | xargs -I {} ebook-viewer "{}" & done ) > /dev/null 2>&1'
+alias 10comics='( for ((i = 1; i <= 10; i++)); do shuf -ezn 1 *.cbz | xargs -I {} ebook-viewer "{}" & done ) > /dev/null 2>&1'
+alias 5images='(find . -type f \( -name "*.jpg" -o -name "*.jpeg" -o -name "*.png" -o -name "*.gif" \) -print0 | shuf -z -n 5 | xargs -0 -P 5 -I {} gwenview "{}" &) > /dev/null 2>&1'
+alias 10images='(find . -type f \( -name "*.jpg" -o -name "*.jpeg" -o -name "*.png" -o -name "*.gif" \) -print0 | shuf -z -n 10 | xargs -0 -P 10 -I {} gwenview "{}" &) > /dev/null 2>&1'
