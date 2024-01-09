@@ -112,12 +112,12 @@ alias zshconfig="nano ~/.zshrc"
 alias ohmyzsh="nano ~/.oh-my-zsh"
 alias extractfolders="find . -mindepth 2 -type f -print -exec mv {} . \;"
 alias cleanorphans="sudo pacman -Qtdq | sudo pacman -Rns -"
+alias random="~/.random.sh"
 
 # Homelab operations
 alias homelab="ssh -i /home/will/.ssh/id_ed25519 will@192.168.1.183 -p 30467"
 alias mountnas="sudo mount 192.168.1.181:/volume1/media /mnt/NAS"
 alias umountnas="sudo umount /mnt/NAS"
-
 
 # Git add all/commit/push to master
 alias gpush="git add . && git commit && git push origin main"
@@ -132,9 +132,3 @@ alias vite="npm create vite@latest"
 
 # Remove .flac track tag for compilations
 alias removetracktags='metaflac --remove-tag="Disc Number" --remove-tag="TOTALTRACKS" --remove-tag="DISC" --remove-tag="TOTALDISCS" --remove-tag="TRACK" --remove-tag="DISCNUMBER" --remove-tag="DISCTOTAL" --remove-tag="DISCC" --remove-tag="TRACKC" --remove-tag="TOTALTRACK" *.flac'
-
-# Select Random Files
-alias 5comics='( for ((i = 1; i <= 5; i++)); do shuf -ezn 1 *.cbz | xargs -I {} ebook-viewer "{}" & done ) > /dev/null 2>&1'
-alias 10comics='( for ((i = 1; i <= 10; i++)); do shuf -ezn 1 *.cbz | xargs -I {} ebook-viewer "{}" & done ) > /dev/null 2>&1'
-alias 5images='(find . -type f \( -name "*.jpg" -o -name "*.jpeg" -o -name "*.png" -o -name "*.gif" \) -print0 | shuf -z -n 5 | xargs -0 -P 5 -I {} gwenview "{}" &) > /dev/null 2>&1'
-alias 10images='(find . -type f \( -name "*.jpg" -o -name "*.jpeg" -o -name "*.png" -o -name "*.gif" \) -print0 | shuf -z -n 10 | xargs -0 -P 10 -I {} gwenview "{}" &) > /dev/null 2>&1'
