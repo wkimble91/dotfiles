@@ -107,6 +107,13 @@ export PATH=~/.npm-global/bin:$PATH
 # Created by `pipx` on 2023-10-21 22:10:43
 export PATH="$PATH:/home/will/.local/bin"
 
+# Add Crates to PATH
+export PATH="$PATH:/home/will/.cargo/bin"
+
+export EDITOR=/usr/bin/nano
+#crontab uses $VISUAL instead of $EDITOR
+export VISUAL=$EDITOR
+
 # Custom aliases
 alias zshconfig="nano ~/.zshrc"
 alias ohmyzsh="nano ~/.oh-my-zsh"
@@ -132,3 +139,6 @@ alias vite="npm create vite@latest"
 
 # Remove .flac track tag for compilations
 alias removetracktags='metaflac --remove-tag="Disc Number" --remove-tag="TOTALTRACKS" --remove-tag="DISC" --remove-tag="TOTALDISCS" --remove-tag="TRACK" --remove-tag="DISCNUMBER" --remove-tag="DISCTOTAL" --remove-tag="DISCC" --remove-tag="TRACKC" --remove-tag="TOTALTRACK" *.flac'
+
+# Adguardian config
+alias adguard='adguardian --adguard-ip "192.168.1.183" --adguard-port "9980" --adguard-username "Will" --adguard-password "g%GyTA@$H7vt&*&d%Wu26i%7Wr^U&Q"'

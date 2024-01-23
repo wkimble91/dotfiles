@@ -7,13 +7,15 @@ DP-4 HDMI-0 Height 2560x1440=780
 DP-4 HDMI-0 Width 2560x1440=1300
 
 [KFileDialog Settings]
-Recent Files[$e]=873172.jpg,file:$HOME/Downloads/arch-US-CO-13.conf,file:$HOME/Downloads/us.protonvpn.net.udp.ovpn
-Recent URLs[$e]=file:$HOME/Pictures/,file:$HOME/,file:$HOME/Pictures/Wallpapers/,file:$HOME/Downloads/,file:$HOME/Documents/
+Recent Files[$e]=873172.jpg,file:$HOME/.config/polybar/launch.sh
+Recent URLs[$e]=file:$HOME/Pictures/,file:$HOME/,file:$HOME/Pictures/Wallpapers/,file:$HOME/Downloads/,file:$HOME/Documents/,file:$HOME/.config/polybar/
 detailViewIconSize=16
 iconViewIconSize=48
 listViewIconSize=16
 
 [KPropertiesDialog]
+2 screens: Height=529
+2 screens: Width=405
 DP-2 HDMI-0 Height 1920x1080=458
 DP-2 HDMI-0 Width 1920x1080=444
 DP-4 HDMI-0 Height 1920x1080=458
@@ -22,8 +24,8 @@ DP-4 HDMI-0 Width 1920x1080=410
 [MainWindow]
 2 screens: Height=704
 2 screens: Width=1280
-2 screens: XPosition=2690
-2 screens: YPosition=386
+2 screens: XPosition=2645
+2 screens: YPosition=534
 2560x1440 screen: XPosition=770
 2560x1440 screen: YPosition=386
 :0.0=:0.0
