@@ -235,11 +235,11 @@ activate entry 6=none,Meta+6,Activate Entry 6
 activate entry 7=none,Meta+7,Activate Entry 7
 activate entry 8=none,Meta+8,Activate Entry 8
 activate entry 9=none,Meta+9,Activate Entry 9
-clear-history=none,,Clear Clipboard History
+clear-history=none,none,Clear Clipboard History
 clipboard_action=none,Meta+Ctrl+X,Automatic Action Popup Menu
-cycleNextAction=none,,Next History Item
-cyclePrevAction=none,,Previous History Item
-edit_clipboard=none,,Edit Contents…
+cycleNextAction=none,none,Next History Item
+cyclePrevAction=none,none,Previous History Item
+edit_clipboard=none,none,Edit Contents…
 new instance for entry 1=Meta+Ctrl+1,Meta+Ctrl+1,New Instance for Entry 1
 new instance for entry 10=Meta+Ctrl+0,Meta+Ctrl+0,New Instance for Entry 10
 new instance for entry 11=Meta+Ctrl+Z,Meta+Ctrl+Z,New Instance for Entry 11
@@ -263,7 +263,7 @@ repeat_action=Meta+Ctrl+R,Meta+Ctrl+R,Manually Invoke Action on Current Clipboar
 show latte global settings=none,Meta+W,Show Latte Global Settings
 show latte view=Meta+`,Meta+`,Show Latte Dock/Panel
 show view settings=Meta+A,Meta+A,Cycle Through Dock/Panel Settings Windows
-show-barcode=none,,Show Barcode…
+show-barcode=none,none,Show Barcode…
 show-on-mouse-pos=none,Meta+V,Show Items at Mouse Position
 
 [mediacontrol]
