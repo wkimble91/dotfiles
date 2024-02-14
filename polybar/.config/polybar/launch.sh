@@ -15,4 +15,4 @@ for m in $(polybar --list-monitors | cut -d":" -f1); do
 done
 
 # Launch the bar
-polybar -q main -c "$DIR"/config.ini &
+$(sleep 4s && polybar -q main -c "$DIR"/config.ini) &
