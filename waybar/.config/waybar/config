@@ -1,0 +1,115 @@
+// =============================================================================
+//
+// Waybar configuration
+//
+// Configuration reference: https://github.com/Alexays/Waybar/wiki/Configuration
+//
+// =============================================================================
+
+{
+    // -------------------------------------------------------------------------
+    // Global configuration
+    // -------------------------------------------------------------------------
+
+    "layer": "top",
+
+    "position": "top",
+
+    // If height property would be not present, it'd be calculated dynamically
+    "height": 32,
+
+    "modules-left": [
+        "cpu",
+        "custom/sep",
+        "memory",
+        "custom/sep",
+        "battery",
+        "custom/sep",
+        "custom/storage"
+    ],
+    "modules-center": [
+        "clock"
+    ],
+    "modules-right": [
+        "network",
+        "custom/sep",
+        "custom/weather"
+    ],
+
+
+    // -------------------------------------------------------------------------
+    // Modules
+    // -------------------------------------------------------------------------
+
+    "battery": {
+        "interval": 10,
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        // Connected to AC
+        "format": " <span color=\"#61C766\">{icon}</span>  {capacity}%", // Icon: bolt
+        // Not connected to AC
+        "format-discharging": "<span color=\"#EC407A\">{icon}</span>  {capacity}%",
+        "format-icons": [
+            "  ", // Icon: battery-full
+            "  ", // Icon: battery-three-quarters
+            "  ", // Icon: battery-half
+            "  ", // Icon: battery-quarter
+            "  "  // Icon: battery-empty
+        ],
+        "tooltip": true
+    },
+
+    "clock": {
+      "interval": 10,
+      "format": "<span color=\"#EC7875\"></span>    {:%A, %B %d at %I:%M %p}", // Icon: calendar-alt
+      "tooltip-format": "{:%e %B %Y}"
+    },
+
+    "cpu": {
+        "interval": 5,
+        "format": "<span color=\"#EC7875\"></span> ⠀{usage}%", // Icon: microchip
+        "states": {
+          "warning": 70,
+          "critical": 90
+        }
+    },
+
+    "memory": {
+        "interval": 5,
+        "format": "<span color=\"#42A5F5\">󱞟</span>⠀{}%",
+        "states": {
+            "warning": 70,
+            "critical": 90
+        }
+    },
+
+    "network": {
+        "interval": 5,
+        "format-wifi": "<span color=\"#BBB\"></span>    {essid}       <span color=\"#00CCCC\"></span>   {bandwidthUpBits}      <span color=\"#52CC00\"></span>   {bandwidthDownBits}    <span color=\"#808080\">({signalStrength}%)</span>",
+        "format-ethernet": "  {ifname}: {ipaddr}/{cidr}",
+        "format-disconnected": "⚠  Disconnected",
+        "tooltip-format": "{ifname}: {ipaddr}"
+    },
+
+    "custom/weather": {
+        "format": "   {}      ",
+        "tooltip": true,
+        "interval": 1800,
+        "exec": "$HOME/.config/waybar/scripts/wttr.py",
+        "return-type": "json"
+    },
+
+    "custom/storage": {
+        "format": " <span color=\"#E57C46\"></span>    {}",
+        "return-type": "json",
+        "interval": 60,
+        "exec": "~/.config/waybar/modules/storage.sh"
+    },
+
+    "custom/sep": {
+        "format": " |  ",
+        "tooltip": false
+    },
+}
