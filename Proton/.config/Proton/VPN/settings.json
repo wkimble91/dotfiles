@@ -1,0 +1,11 @@
+{
+    "protocol": "openvpn-tcp",
+    "killswitch": 0,
+    "dns_custom_ips": [],
+    "features": {
+        "netshield": 2,
+        "moderate_nat": false,
+        "vpn_accelerator": true,
+        "port_forwarding": true
+    }
+}
