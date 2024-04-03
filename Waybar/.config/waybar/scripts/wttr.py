@@ -92,11 +92,11 @@ current_temp = weather['current_condition'][0]['FeelsLikeF']
 weather_code = WEATHER_CODES[weather['current_condition'][0]['weatherCode']]
 
 if int(current_temp) > 70:
-    temperature_style = "#f43753"  # red color
+    temperature_style = "#f43753"  # hot color
 elif int(current_temp) < 32:
-    temperature_style = "#b3deef"  # blue color
+    temperature_style = "#b3deef"  # cold color
 else:
-    temperature_style = ""
+    temperature_style = "#EBDBB2"  # default color
 
 data['text'] = f"<big>{weather_code}</big>   <span color='{temperature_style}'>{current_temp}°</span>"
 
