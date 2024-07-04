@@ -122,8 +122,8 @@ alias cleanorphans="sudo pacman -Qtdq | sudo pacman -Rns -"
 alias random="~/.random.sh"
 
 # Homelab operations
-alias homelab="ssh -i /home/will/.ssh/id_ed25519 will@192.168.1.183 -p 30467"
-alias mountnas="sudo mount 192.168.1.181:/volume1/media /mnt/NAS"
+alias homelab="ssh -i /home/will/.ssh/id_ed25519 will@192.168.50.150 -p 30467"
+alias mountnas="sudo mount 192.168.50.151:/volume1/media /mnt/NAS"
 alias umountnas="sudo umount /mnt/NAS"
 
 # Git add all/commit/push to master
