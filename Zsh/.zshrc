@@ -53,8 +53,6 @@ export PATH="$PATH:/home/will/.cargo/bin"
 ## Torrent Crap
 # Add LAC to PATH
 export PATH="$PATH:/home/will/Music/REDCamp/lac"
-# Add RED API
-export RED_API_KEY=74ea3834.2564be8e66495ab5d1fa6cac6ef51952
 
 export EDITOR=/usr/bin/nano
 #crontab uses $VISUAL instead of $EDITOR
